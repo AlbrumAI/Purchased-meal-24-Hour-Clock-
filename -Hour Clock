@@ -1,0 +1,11 @@
+>>> # Ask the user for the current time
+>>> current_time = int(input("Enter the current time (in 24-hour format): \"))
+Enter the current time (in 24-hour format): 13
+>>> # Ask the user for the number of hours to wait
+>>> wait_hours = int(input("Enter the number of hours to wait for the alar\m: "))
+Enter the number of hours to wait for the alarm: 50
+>>> # Calculate future time
+>>> future_time = (current_time + wait_hours) % 24
+>>> # Display the result
+>>> print(f"The alarm will go off at {future_time}:00 on the 24-hour clock\.")
+The alarm will go off at 15:00 on the 24-hour clock.
